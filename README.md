@@ -17,32 +17,32 @@ My organization is working to make their system more secure. It is my job to ens
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Retrieve after hours login attempts:There was a potential security incident that occurred after business hours (after 18:00). All after hours login attempts that failed need to be investigated.
+ <br/>
+<img src="https://imgur.com/BWiuYEq.png" height="80%" width="80%" alt="Filtering Steps"/>
+<br />
+Retrieve login attempts on specific dates: A suspicious event occurred on 2022-05-09. Any login activity that happened on 2022-05-09 or on the day before needs to be investigated <br/>
+<img src="https://imgur.com/2Sgslox.png" height="80%" width="80%" alt="Filtering Steps"/>
+<br />
+Retrieve login attempts outside of Mexico: After investigating the organization’s data on login attempts, I believe there is an issue with the login attempts that occurred outside of Mexico. These login attempts should be investigated.
+ <br/>
+<img src="https://imgur.com/rLAa9XW.png" height="80%" width="80%" alt="Filtering Steps"/>
+<br />
+Retrieve employees in Marketing: My team wants to update the computers for certain employees in the Marketing department. To do this, I have to get information on which employee machines to update.  <br/>
+<img src="https://imgur.com/pVOxuGC.png" height="80%" width="80%" alt="Filtering Steps"/>
+<br />
+Retrieve employees in Finance or Sales: The machines for employees in the Finance and Sales departments also need to be updated. Since a different security update is needed, I have to get information on employees only from these two departments.
+ <br/>
+<img src="https://imgur.com/KMHJFev.png" height="80%" width="80%" alt="Filtering Steps"/>
+<br />
+Retrieve all employees not in IT: My team needs to make one more security update on employees who are not in the Information Technology department. To make the update, I first have to get information on these employees.
+  <br/>
+<img src="https://imgur.com/LyIECSq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Summary:  
+I applied filters to SQL queries to get specific information on login attempts and employee machines. I used two different tables, log_in_attempts and employees. I used the AND, OR, and NOT operators to filter for the specific information needed for each task. I also used LIKE and the percentage sign (%) wildcard to filter for patterns.  <br/>
+
 </p>
 
 <!--
